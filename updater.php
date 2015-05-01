@@ -147,8 +147,6 @@ class EDDRR_GitHubPluginUpdater {
 		}
 
 		$response->download_link = $downloadLink;
-
-		// Load Parsedown
 		require_once __DIR__ . DIRECTORY_SEPARATOR . 'Parsedown.php';
 
 		// Create tabs in the lightbox
