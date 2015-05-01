@@ -9,6 +9,7 @@ Author URI: http://isabelcastillo.com
 License: GPL2
 Text Domain: edd-restrict-registration
 Domain Path: languages
+GitHub Plugin URI: https://github.com/isabelc/EDD-Restrict-Registration
 
 Copyright 2015 Isabel Castillo
 
