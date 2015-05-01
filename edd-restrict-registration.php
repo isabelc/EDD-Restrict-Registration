@@ -3,7 +3,7 @@
 Plugin Name: EDD Restrict Registration
 Plugin URI: http://isabelcastillo.com/docs/category/edd-restrict-registration
 Description: Let EDD guest customers register with a simple shortcode, disable registration for everyone else.
-Version: 0.7
+Version: 0.7.1
 Author: Isabel Castillo
 Author URI: http://isabelcastillo.com
 License: GPL2
