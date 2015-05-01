@@ -370,7 +370,3 @@ class EDD_Restrict_Registration{
 register_deactivation_hook( __FILE__, array( 'EDD_Restrict_Registration', 'deactivate' ) );
 $edd_restrict_registration = EDD_Restrict_Registration::get_instance();
 add_shortcode( 'edd_restrict_registration_form', array( $edd_restrict_registration, 'eddrr_shortcode' ) );
-require_once dirname( __FILE__ ) . '/updater.php';
-if ( is_admin() ) {
-	new EDDRR_GitHubPluginUpdater( __FILE__, 'isabelc', "EDD-Restrict-Registration" );
-}
