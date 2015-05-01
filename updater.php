@@ -151,7 +151,7 @@ class EDDRR_GitHubPluginUpdater {
 
 		// Create tabs in the lightbox
 		$response->sections = array(
-			'Description' 	=> $this->pluginData["Description"],
+			'description' 	=> $this->pluginData["Description"],
 			'changelog' 	=> class_exists( "Parsedown" )
 				? Parsedown::instance()->parse( $this->githubAPIResult->body )
 				: $this->githubAPIResult->body
